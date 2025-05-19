@@ -4,7 +4,8 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
   lang: 'en-US',
-
+  // base: process.env.NODE_ENV === 'production' ? '/1/' : '/',
+  base: '/1/',
   title: '1',
   description: 'My first VuePress Site',
 

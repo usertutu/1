@@ -1,16 +1,3 @@
 import comp from "C:/Users/ADMIN/Desktop/123/1/docs/.vuepress/.temp/pages/index.html.vue"
-const data = JSON.parse("{\"path\":\"/\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"footer: MIT Licensed | Copyright © 2018-present VuePress Community\",\"slug\":\"footer-mit-licensed-copyright-©-2018-present-vuepress-community\",\"link\":\"#footer-mit-licensed-copyright-©-2018-present-vuepress-community\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"README.md\"}")
+const data = JSON.parse("{\"path\":\"/\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"footer: MIT Licensed | Copyright © 2018-present VuePress Community\",\"slug\":\"footer-mit-licensed-copyright-©-2018-present-vuepress-community\",\"link\":\"#footer-mit-licensed-copyright-©-2018-present-vuepress-community\",\"children\":[]}],\"git\":{\"updatedTime\":1747641733000,\"contributors\":[{\"name\":\"zhudy\",\"username\":\"zhudy\",\"email\":\"484027291@qq.com\",\"commits\":1,\"url\":\"https://github.com/zhudy\"}],\"changelog\":[{\"hash\":\"e3d5bad15751e7b4d2bb45888cf36260d3f82644\",\"time\":1747641733000,\"email\":\"484027291@qq.com\",\"author\":\"zhudy\",\"message\":\"feat：init\"}]},\"filePathRelative\":\"README.md\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

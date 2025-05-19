@@ -1,16 +1,3 @@
 import comp from "C:/Users/ADMIN/Desktop/123/1/docs/.vuepress/.temp/pages/home.html.vue"
-const data = JSON.parse("{\"path\":\"/home.html\",\"title\":\"Home\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{},\"filePathRelative\":\"home.md\"}")
+const data = JSON.parse("{\"path\":\"/home.html\",\"title\":\"Home\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1747641733000,\"contributors\":[{\"name\":\"zhudy\",\"username\":\"zhudy\",\"email\":\"484027291@qq.com\",\"commits\":1,\"url\":\"https://github.com/zhudy\"}],\"changelog\":[{\"hash\":\"e3d5bad15751e7b4d2bb45888cf36260d3f82644\",\"time\":1747641733000,\"email\":\"484027291@qq.com\",\"author\":\"zhudy\",\"message\":\"feat：init\"}]},\"filePathRelative\":\"home.md\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
